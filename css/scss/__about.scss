@@ -1,0 +1,22 @@
+.about {
+    &__image {
+        height: 680px;
+        border-radius: 24px;
+    }
+    &__content {
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-bottom: 20px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7e808c;
+        margin-bottom: 32px;
+    }
+    & .section__title {
+        margin-bottom: 24px;
+    }
+}
