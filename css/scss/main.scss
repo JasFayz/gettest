@@ -54,21 +54,32 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
+    color: #27256B;
+    display: inline-block;
+    border: 1px solid #D9E0FA;
+    &:hover{
+        border-color: transparent;
+        box-shadow: 0 0px 0 2px darken($color: #27256B, $amount: 20);
+    }
     &.btn-sm {
         padding: 8px 24px;
     }
-    &:focus {
-        box-shadow: 0 4px 0 #dc700d;
-    }
+
+ 
+
     &--orange {
         background-color: #f8a037;
         color: #fff;
         box-shadow: 0 4px 0 #dc700d;
+        border-color: transparent;
+
         &:hover {
             color: #fff;
             box-shadow: 0 4px 0 #f8a037;
             background-color: darken($color: #f8a037, $amount: 10);
+        }
+        &:focus {
+            box-shadow: 0 4px 0 #dc700d;
         }
     }
 }
@@ -76,6 +87,15 @@ body {
 .form__input {
     height: 56px;
     border-color: #d9e0fa;
+    border-radius: 8px;
+}
+
+.form__label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #27256B;
+    margin-bottom: 8px;
 }
 
 .section__title {
@@ -87,9 +107,22 @@ body {
     margin-bottom: 48px;
     display: inline-block;
     text-transform: uppercase;
+
     & span {
         color: #5660D3;
     }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+
+.card {
+    border: 1px solid #D9E0FA;
+    border-radius: 16px;
+    padding: 20px 24px;
+
+    &__body {}
 }
 
 @import "./_intro";
@@ -102,3 +135,7 @@ body {
 @import "./_apply";
 @import "./_faqs";
 @import "./_footer";
+
+@import "./_sidebar";
+
+@import "./_login";

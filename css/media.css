@@ -56,7 +56,14 @@
 
 /* xs <= Small (sm) */
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .footer__top .nav {
+        flex-direction: column;
+    }
+    .footer__top .nav-link {
+        padding-left: 0;
+    }
+}
 
 
 /* === MOBILE FIRST === */

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Simple Starter</title>
+    <meta name="description" content="Simple Starter Description">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/image.jpg">
+
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fonts/InterFont/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <div id="app" class="d-flex flex-column vh-100">
+        <div class="login__page">
+            <div class="col-lg-6 mx-auto d-flex flex-column">
+                <a href="" class="logo text-center "> 
+                    <svg width="208" height="64" viewBox="0 0 208 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_211_1128)">
+                        <path d="M0 40.6285C0.243595 32.0965 5.74479 26.9062 14.2097 26.9062C20.9898 26.9062 25.9835 29.2627 27.4958 36.0477H22.9487C21.5074 32.2184 18.0362 30.6238 14.2909 30.6238C8.46494 30.6238 4.42532 34.971 4.14112 40.6488L0 40.6285ZM23.3446 43.7772H13.8037V40.9231H27.8105V55.143H23.9028V47.6369L13.6109 55.1837H7.8255L23.3446 43.7772Z" fill="white"/>
+                        <path d="M32.855 27.3022H78.1536V31.487H32.855V27.3022ZM32.855 39.2876H52.7791V43.1981H32.855V39.2876ZM32.855 50.948H52.7791V55.1835H32.855V50.948ZM65.3344 36.4538H69.6074V55.1835H65.2938L65.3344 36.4538Z" fill="white"/>
+                        <path d="M158.469 32.1473H113.211V27.9524H158.469V32.1473ZM158.469 43.8483H138.596V39.9378H158.469V43.8483ZM158.469 55.8337H138.596V51.5982H158.469V55.8337ZM125.99 55.8337H121.798V37.104H126.061L125.99 55.8337Z" fill="white"/>
+                        <path d="M166.721 47.4844C167.005 51.3238 170.151 52.9185 173.541 52.9185C175.825 52.9185 179.976 52.0348 179.976 48.4087C179.976 45.0467 176.698 44.0513 174.069 43.2489C173.054 42.934 171.988 42.6903 170.913 42.3348C166.528 41.0956 162.732 39.5416 162.732 34.7474C162.732 29.6688 168.395 27.5562 173.064 27.5562C179.093 27.5562 183.965 30.0345 184.28 36.2608H179.936C179.652 32.5535 176.383 30.8369 173.105 30.8369C170.598 30.8369 166.843 31.6698 166.843 34.8287C166.843 37.9875 170.354 38.9423 172.79 39.6533C173.805 39.9377 174.901 40.2221 175.977 40.5776C180.413 41.898 184.28 43.6247 184.28 48.4087C184.28 53.9139 178.738 56.2297 173.663 56.2297C167.482 56.2297 162.569 53.9139 162.295 47.4844H166.721Z" fill="white"/>
+                        <path d="M117.85 27.9524L115.718 32.1618H111.313L113.455 27.9524H117.85Z" fill="#DDDDDD"/>
+                        <path d="M72.5933 27.3022L74.7247 31.4874H79.1298L76.9882 27.3022H72.5933Z" fill="#DDDDDD"/>
+                        <path d="M195.191 31.8526H186.574V28.2976H208V31.8526H199.464V56.2297H195.191V31.8526Z" fill="white"/>
+                        <path d="M111.77 11.3251L109.618 15.1645H118.753L95.0732 56.3211L71.3328 15.1645H105.233L107.375 11.3251H64.6847L95.0732 63.9898L125.462 11.3149L111.77 11.3251Z" fill="white"/>
+                        <path d="M109.537 11.325L107.405 15.1643H103L105.142 11.325H109.537Z" fill="#DDDDDD"/>
+                        <path d="M113.678 0L107.375 11.3252L105.233 15.1646L94.0482 35.2554L86.4663 22.7215L83.1879 24.7021L94.1903 42.9138L109.638 15.1646L111.77 11.3252L117.037 1.86891L113.678 0Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_211_1128">
+                        <rect width="208" height="64" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </a>
+
+                <div class="intro__form mx-auto w-100">
+                    <h4 class="intro__form_title">
+                        Авторизация
+                    </h4>
+                    <div class="intro__form_content">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label for="" class="form__label">Номер телефона</label>
+                                <input type="text" class="form-control form__input mb-2" placeholder="+998">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form__label"> Введите пароль</label>
+                                <input type="text" class="form-control form__input mb-2" placeholder="Пароль">
+                            </div>
+
+                            <a href="" class="btn btn-link">Забыли пароль?</a>
+                        </div>
+                        <button class="btn button button--orange w-100 mt-3">
+                            Войти
+                        </button>
+                        <a href="#" class="btn button w-100 mt-3">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

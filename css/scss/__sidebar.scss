@@ -1,0 +1,53 @@
+.sidebar {
+    border: 1px solid #D9E0FA;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    &__header {
+        padding: 24px 23px;
+        display: flex;
+        background: radial-gradient(87.57% 148.47% at 12.43% 50%, #727ADF 0%, #5660D3 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+            , #D9D9D9;
+        border-radius: 7px 7px 0px 0px;
+
+        &_icon {
+            margin-right: 16px;
+        }
+
+        &_text {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-right: 75px;
+        }
+    }
+
+    &__nav {
+        list-style: none;
+        padding: 0;
+
+        &_head {
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #27256B;
+            margin-top: 12px;
+        }
+
+        &_link {
+            display: block;
+            padding: 12px 24px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #2D2D2D;
+            text-decoration: none;
+
+            &:hover {
+                background: #EBECFA;
+                border-radius: 4px;
+            }
+        }
+    }
+}

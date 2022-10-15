@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Simple Starter</title>
+    <meta name="description" content="Simple Starter Description">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/image.jpg">
+
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fonts/InterFont/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <div id="app" class="d-flex flex-column vh-100">
+        <header class="header light">
+            <nav class="navbar navbar-expand-lg  py-0">
+                <div class="container header__container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo--orange.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3302 16H24.6703" stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.3302 21.3356H24.6703" stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.32971 10.6645H24.6698" stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+                    </button>
+
+
+
+                    <div class="collapse navbar-collapse ms-auto flex-grow-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-lg-5">
+                            <li class="nav-item active">
+                                <a class="nav-link navbar__link" href="#">Как это работает</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">Возможности</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">Тесты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">проекте</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">Подать заявку</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="navbar-nav mr-auto align-lg-items-center ms-lg-5  mt-md-4 mt-lg-0">
+                            <li class="nav-item dropdown me-3">
+
+                                <a class="btn navbar__link ps-sm-0" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Русский
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class=" btn btn-sm button button--orange" href="#">Войти</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <main class="main mt-3 flex-grow-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-5">
+                        <aside class="sidebar">
+                            <div class="sidebar__header">
+                                <div class="sidebar__header_icon">
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_219_820)">
+                                            <path
+                                                d="M24 0C10.752 0 0 10.752 0 24C0 37.248 10.752 48 24 48C37.248 48 48 37.248 48 24C48 10.752 37.248 0 24 0ZM24 7.2C27.984 7.2 31.2 10.416 31.2 14.4C31.2 18.384 27.984 21.6 24 21.6C20.016 21.6 16.8 18.384 16.8 14.4C16.8 10.416 20.016 7.2 24 7.2ZM24 41.28C18 41.28 12.696 38.208 9.6 33.552C9.672 28.776 19.2 26.16 24 26.16C28.776 26.16 38.328 28.776 38.4 33.552C35.304 38.208 30 41.28 24 41.28Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_219_820">
+                                                <rect width="48" height="48" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </div>
+                                <div class="sidebar__header_text">
+                                    Пулатов Мавлонбек
+                                    Мухторжон угли
+                                </div>
+                            </div>
+
+                            <ul class="sidebar__nav">
+                                <li class="sidebar__nav_head">
+                                    Мои тесты
+                                </li>
+                                <li class="sidebar__nav_item">
+                                    <a href="#" class="sidebar__nav_link">Все тесты (32)</a>
+                                </li>
+                                <li class="sidebar__nav_item">
+                                    <a href="#" class="sidebar__nav_link">
+                                        Проверенные тесты (32)
+                                    </a>
+                                </li>
+                                <li class="sidebar__nav_item">
+                                    <a href="#" class="sidebar__nav_link">
+                                        Непроверенные тесты (32)
+                                    </a>
+                                </li>
+                                <li class="sidebar__nav_head">
+                                    Мои данные
+                                </li>
+                                <li class="sidebar__nav_item">
+                                    <a href="#" class="sidebar__nav_link">Личные данные</a>
+                                </li>
+                                <li class="sidebar__nav_item"><a href="#" class="sidebar__nav_link">Изменить пароль</a>
+                                </li>
+                                <li class="sidebar__nav_item"><a href="#" class="sidebar__nav_link">Изменить Email</a>
+                                </li>
+                                <li class="sidebar__nav_item"><a href="#" class="sidebar__nav_link">Изменить номер
+                                        телефона</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-7">
+                        <section class="content">
+                            <h2 class="section__title bold  mb-3">
+                                Личные данные
+                            </h2>
+                            <div class="card ">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-3">
+                                            <label for="name" class="form__label">Имя</label>
+                                            <input type="text" class="form-control form__input"
+                                                placeholder="Пулатов Мавлонбек">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-3">
+                                            <label for="name" class="form__label">Фамилия</label>
+                                            <input type="text" class="form-control form__input"
+                                                placeholder="Пулатов Мавлонбек">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-3">
+                                            <label for="name" class="form__label">Отчество</label>
+                                            <input type="text" class="form-control form__input"
+                                                placeholder="Пулатов Мавлонбек">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-3">
+                                            <label for="name" class="form__label">Дата рождение</label>
+                                            <input type="text" class="form-control form__input"
+                                                placeholder="Пулатов Мавлонбек">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-3">
+                                            <label for="name" class="form__label">Пол</label>
+                                            <input type="text" class="form-control form__input"
+                                                placeholder="Пулатов Мавлонбек">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <button class="btn button button--orange mt-4">СОХРАНИТЬ</button>
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="container footer__top_container">
+                    <div class="logo">
+                        <a href="" class="logo_icon">
+                            <img src="./images/logo.svg" alt="">
+                        </a>
+                        <div class="address">
+                            Ташкент, 100011, улица Алишера Навои, 11
+                        </div>
+                    </div>
+
+                    <div class="footer__nav">
+                        <ul class="nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link navbar__link" href="#">Как это работает</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">Возможности</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">Тесты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">проекте</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar__link" href="#">Подать заявку</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="footer__contact">
+                        <a href="tel:+998 90 000 00 00" class="nav-link ">+998 90 000 00 00</a>
+                        <ul class="social">
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 8V12H4V19H8V12H11L12 8H8V6C8 5.73478 8.10536 5.48043 8.29289 5.29289C8.48043 5.10536 8.73478 5 9 5H12V1H9C7.67392 1 6.40215 1.52678 5.46447 2.46447C4.52678 3.40215 4 4.67392 4 6V8H1Z"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13 7L9 11L15 17L19 1L1 8L5 10L7 16L10 12" stroke="white"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_224_868)">
+                                            <path
+                                                d="M17 5H7C4.79086 5 3 6.79086 3 9V15C3 17.2091 4.79086 19 7 19H17C19.2091 19 21 17.2091 21 15V9C21 6.79086 19.2091 5 17 5Z"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10 9L15 12L10 15V9Z" stroke="white" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_224_868">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_224_872)">
+                                            <path
+                                                d="M16 4H8C5.79086 4 4 5.79086 4 8V16C4 18.2091 5.79086 20 8 20H16C18.2091 20 20 18.2091 20 16V8C20 5.79086 18.2091 4 16 4Z"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16.5 7.5V7.501" stroke="white" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_224_872">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container footer__bottom_container">
+                    <div class="copyright">
+                        ©2020-2022 Все права защищены. Online Test ®
+                    </div>
+                    <a href="mailto:info@smartgov.pro" class="email"> info@smartgov.pro</a>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

@@ -25,4 +25,9 @@
             }
         }
     }
+    &.light {
+        & .navbar__link {
+            color: #27256B;
+        }
+    }
 }
